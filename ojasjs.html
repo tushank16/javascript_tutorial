@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Enter a in the textbox below</p>
+	<input type="textbox" id="nm"></input>
+	<button onclick="myconsole()">console</button>
+    <button onclick="myalert()">alert</button>
+    <button onclick="myFunction()">submit</button>
+
+    <script type="text/javascript">
+        var b;
+        function myFunction() {
+        b = document.getElementById("nm").value;  
+        }
+        function myconsole() {
+            console.log(b);
+        }
+        function myalert() {
+            alert(b);
+        }
+    </script>
+
+</body>
+</html>
