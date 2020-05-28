@@ -1,0 +1,8 @@
+.winner{
+    color: darkgreen;
+}
+
+.loser{
+    color: darkred;
+    font-size: x-large;
+}
